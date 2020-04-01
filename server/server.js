@@ -16,5 +16,5 @@ app.get('/listing/:productNumber', (req, res) => {
   });
 });
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 8001;
 app.listen(port, () => console.log(`Listening on port ${port}`));
