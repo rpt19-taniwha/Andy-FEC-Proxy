@@ -12,7 +12,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server-dev": "node server/server.js"
+    "server-dev": "nodemon server/server.js"
   },
   "repository": {
     "type": "git",
