@@ -1,0 +1,115 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+}
+
+hr {
+    background-color: #eee;
+    margin: 0 auto !important;
+    border: 0 none !important;
+    color: #eee;
+    height: 2px !important;
+    margin: 15px !important;
+}
+
+.nav {
+  text-align: center;
+  max-width: 75%;
+  margin: 0 auto;
+  display: block;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.etsy-logo {
+  cursor: pointer;
+}
+
+.nav-search {
+  margin: 0 auto;
+  margin-top: 10px;
+  max-width: 100%;
+}
+
+.search-box {
+  max-width: 1200px;
+  width: 1200px;
+}
+
+.sign-in {
+  padding-right: 10px;
+  padding-left: 15px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.shopping-cart {
+  cursor: pointer;
+}
+
+.search-box input {
+  padding-right: 50px;
+  box-shadow: 0 1px 4px 0 rgba(34, 34, 34, 0.1) inset;
+  border-color: rgba(34, 34, 34, 0.15);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 40px;
+  color: #222222;
+  display: block;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 28px;
+  height: 48px;
+  outline: none;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 100%;
+  min-width: 0;
+  background-color: #efefef;
+}
+
+/* Nav Sections */
+.nav-sections {
+  display: flex;
+  text-align: center;
+  max-width: 75%;
+  margin: 0 auto;
+
+
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+a {
+  color: #222222 !important;
+  text-decoration: none !important;
+  font-size: 13px !important;
+  margin: 4px 12px 0 0 !important;
+  padding: 0 0 12px !important;
+}
+
+#components {
+  max-width: 75%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 3em;
+}
+
+.three {
+  position: relative;
+  top: -300px !important;
+  right: 40px !important;
+}
+
+.four {
+  position: relative;
+  top: -250px !important;
+}
