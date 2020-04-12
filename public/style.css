@@ -6,16 +6,17 @@ body {
 
 hr {
     background-color: #eee;
+    margin: 0 auto !important;
     border: 0 none !important;
     color: #eee;
     height: 2px !important;
-    margin-top: -20px !important;
+    margin: 15px !important;
 }
 
 .nav {
   text-align: center;
-  margin: 0;
-  padding: 0;
+  max-width: 75%;
+  margin: 0 auto;
   display: block;
 }
 
@@ -23,13 +24,19 @@ hr {
   display: inline-block;
 }
 
+.etsy-logo {
+  cursor: pointer;
+}
+
 .nav-search {
   margin: 0 auto;
   margin-top: 10px;
+  max-width: 100%;
 }
 
 .search-box {
-  width: 1100px;
+  max-width: 1200px;
+  width: 1200px;
 }
 
 .sign-in {
@@ -37,6 +44,11 @@ hr {
   padding-left: 15px;
   font-size: 13px;
   font-weight: 500;
+  cursor: pointer;
+}
+
+.shopping-cart {
+  cursor: pointer;
 }
 
 .search-box input {
@@ -66,10 +78,10 @@ hr {
 .nav-sections {
   display: flex;
   text-align: center;
-  max-width: 1335px;
+  max-width: 75%;
   margin: 0 auto;
-  margin-top: -10px;
-  padding: 20px;
+
+
   list-style-type: none;
   justify-content: space-between;
 }
@@ -82,14 +94,22 @@ a {
   padding: 0 0 12px !important;
 }
 
-
-#product-service {
-  border: 1px solid green;
-  float: right;
+#components {
+  max-width: 75%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 3em;
 }
 
+.three {
+  position: relative;
+  top: -300px !important;
+  right: 40px !important;
+}
 
-
-
-
-
+.four {
+  position: relative;
+  top: -250px !important;
+}
