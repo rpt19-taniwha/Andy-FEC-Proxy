@@ -5,38 +5,38 @@ body {
 }
 
 hr {
-    background-color: #eee;
-    margin: 0 auto !important;
-    border: 0 none !important;
-    color: #eee;
-    height: 2px !important;
-    margin: 15px !important;
+  background-color: #eee;
+  margin: 0 auto !important;
+  border: 0 none !important;
+  color: #eee;
+  height: 2px !important;
+  margin: 20px !important;
 }
 
-.nav {
-  text-align: center;
-  max-width: 75%;
-  margin: 0 auto;
-  display: block;
-}
-
-.nav li {
-  display: inline-block;
-}
+/*
+=======================
+Nav Bar
+=======================
+*/
 
 .etsy-logo {
   cursor: pointer;
 }
 
 .nav-search {
-  margin: 0 auto;
+  margin-left: 12%;
   margin-top: 10px;
-  max-width: 100%;
+  width: 100%;
+  display: inline-block;
+}
+
+.nav-items {
+  display: inline-block;
 }
 
 .search-box {
-  max-width: 1200px;
-  width: 1200px;
+  max-width: 100%;
+  width: 73%;
 }
 
 .sign-in {
@@ -74,12 +74,18 @@ hr {
   background-color: #efefef;
 }
 
-/* Nav Sections */
+/*
+=======================
+Nav Sections
+=======================
+*/
 .nav-sections {
   display: flex;
   text-align: center;
   max-width: 75%;
   margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: -15px;
 
 
   list-style-type: none;
@@ -93,6 +99,12 @@ a {
   margin: 4px 12px 0 0 !important;
   padding: 0 0 12px !important;
 }
+
+/*
+=======================
+Components
+=======================
+*/
 
 #components {
   max-width: 75%;
@@ -112,4 +124,93 @@ a {
 .four {
   position: relative;
   top: -250px !important;
+  margin-bottom: -200px !important;
+}
+
+/*
+=======================
+footer
+=======================
+*/
+
+/* Upper */
+#upper-footer {
+  background-color: #2f466c;
+  color: white;
+  font-size: 13px;
+  padding-top: 30px;
+  height: 300px;
+}
+
+.upper-footer-container {
+  width: 100vw;
+  max-width: 1400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 10%;
+}
+
+.shop {
+  flex-grow: 1;
+  flex-basis: 25%;
+  max-width: 25%;
+}
+
+.sell {
+  flex-grow: 1;
+  flex-basis: 25%;
+  max-width: 25%;
+}
+
+.about {
+  flex-grow: 1;
+  flex-basis: 25%;
+  max-width: 25%;
+}
+
+.help {
+  flex-grow: 1;
+  flex-basis: 25%;
+  max-width: 25%;
+}
+
+#upper-footer .title {
+  font-size: 16px;
+}
+
+#upper-footer ul {
+  list-style-type: none;
+}
+
+#upper-footer ul li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+/* Lower */
+#lower-footer {
+  width: 100vw;
+  overflow: hidden;
+  background-color: #222347;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 11%;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.footer-links li {
+  display: inline-block;
+  position: relative;
+  margin-top: 15px;
+  padding: 20px 12px;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.underline {
+  text-decoration: underline;
 }
