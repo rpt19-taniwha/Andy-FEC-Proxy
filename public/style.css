@@ -112,13 +112,13 @@ Components
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-template-rows: auto;
-  grid-gap: 3em;
+  grid-gap: 4em;
 }
 
 .three {
   position: relative;
   top: -300px !important;
-  right: 40px !important;
+  right: 100px !important;
 }
 
 .four {
@@ -132,6 +132,7 @@ Components
 footer
 =======================
 */
+
 
 /* Upper */
 #upper-footer {
@@ -186,6 +187,10 @@ footer
 #upper-footer ul li {
   padding: 5px;
   cursor: pointer;
+}
+
+#upper-footer ul li:hover {
+  text-decoration: underline;
 }
 
 /* Lower */
