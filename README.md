@@ -22,5 +22,5 @@ Proxy Repo for Etsy Mock
 - Update script tags with correct service URLs in "public/index.html" (lines 115-118).
 
 ## Start
-npm install
-npm start
+- npm install
+- npm start
